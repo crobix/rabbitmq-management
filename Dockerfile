@@ -1,7 +1,7 @@
 
 FROM rabbitmq:management
 
-RUN apt-update && apt-get install -y python
+RUN apt-get update && apt-get install -y python
 
 ADD rabbitmqadmin /usr/local/bin/rabbitmqadmin
 
